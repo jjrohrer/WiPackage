@@ -14,7 +14,7 @@ class WiPackage1ServiceProvider extends ServiceProvider
     public function boot()
     {
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'jjrohrer');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'jjrohrer');
+         $this->loadViewsFrom(__DIR__.'/../resources/views', 'jjrohrer');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
@@ -48,7 +48,7 @@ class WiPackage1ServiceProvider extends ServiceProvider
     {
         return ['wipackage1'];
     }
-    
+
     /**
      * Console-specific booting.
      *
